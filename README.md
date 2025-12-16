@@ -23,6 +23,17 @@ DNS queries are sent in plain text, meaning anyone monitoring your network can s
 
 ✅ Your browsing habits remain private
 
+## Features
+🚀 Serverless - Runs entirely on Cloudflare Workers edge network
+
+🌍 Global - Deployed across Cloudflare's worldwide network
+
+🔒 Secure - Encrypts DNS queries using HTTPS
+
+⚡ Fast - Low latency due to edge computing
+
+🆓 Free - Works within Cloudflare Workers free tier
+
 ## Limit
 This project works within Cloudflare Workers Free Tier. For detailed information about request limits, CPU time, and other restrictions, see:
 
