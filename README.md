@@ -38,3 +38,9 @@ DNS queries are sent in plain text, meaning anyone monitoring your network can s
 This project works within Cloudflare Workers Free Tier. For detailed information about request limits, CPU time, and other restrictions, see:
 
  [CloudFlare Free Workers limit](https://developers.cloudflare.com/workers/platform/limits/)
+
+## Usage
+After deployment, configure your DoH client with your worker URL:
+``` URL
+https://your-worker-name.your-subdomain.workers.dev/dns-query
+```
